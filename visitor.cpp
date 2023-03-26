@@ -1,9 +1,6 @@
 #include "visitor.h"
 #include <cmath>
 
-using namespace std;
-
-
 ElectronicAppliance::ElectronicAppliance(double n_price, double n_weight) : weight{ n_weight }, price{ n_price } { }
 
 double ElectronicAppliance::getPrice() {
